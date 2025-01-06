@@ -38,7 +38,7 @@ module.exports = function(eleventyConfig) {
 
     return {
         dir: {
-            input: "articles",    // Look for source files in articles directory
+            input: ".",    // Look for source files in articles directory
             output: "_site",      // Output to _site directory
             includes: "../_includes"  // Look for includes in parent directory
         },
