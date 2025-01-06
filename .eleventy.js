@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
         dir: {
             input: ".",    // Look for source files in articles directory
             output: "_site",      // Output to _site directory
-            includes: "../_includes"  // Look for includes in parent directory
+            includes: "./_includes"  // Look for includes in parent directory
         },
         pathPrefix: "/",         // Update this if site is not at root of domain
         templateFormats: ["md", "njk"],
