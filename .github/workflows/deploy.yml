@@ -39,7 +39,7 @@ jobs:
 
       - name: Build site
         run: |
-          npx @11ty/eleventy --input=./*.md --output=./_site
+          npx @11ty/eleventy --input=*.md --output=_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
