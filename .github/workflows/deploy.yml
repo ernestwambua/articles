@@ -39,6 +39,7 @@ jobs:
 
       - name: Build site
         run: |
+          ls -al
           npx @11ty/eleventy --input=*.md --output=_site
 
       - name: Upload artifact
