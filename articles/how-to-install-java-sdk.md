@@ -14,7 +14,14 @@ Welcome to my little corner of the internet.
 
 If you are a java developer and you've started dipping your toes into the java world then you've probably tried installing the java JDK on your computer.
 
-While you might be tempted to just install OpenJDK and call it a day, I would argue that this is not the best solution. What if you needed to install say Java 17 alongside Java 8 and switch between them 
+While you might be tempted to just install OpenJDK for your distro and call it a day, I would argue that this is not the best solution. What if you needed to install say, Java 17 alongside Java 8 and switch between them at your convenience. What if you needed to try out a JDK from a different vendor say, Amazon, Google or Alibaba. This might be difficult installing doing it the traditional way.
+
+What if I told you there was a better way. This is where I introduce you to SDKman! This is a JDK version manager that you can use to install your JDKs and SDKs. Here's how...
+
+First run this command to install SDK man on your system:
+
+```
+```
 
 ## Resources
 
