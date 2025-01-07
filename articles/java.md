@@ -10,9 +10,10 @@ _By Ernest Wambua on 2025-01-07_
 _Tags: [[java]], [[dev]]_
 ___
 
+
 Why hello Stranger! 👋😀
 These are my articles on **java**
 
-- [[how-to-install-java-sdk]]
+- [[how-to-install-java-jdk-on-linux]]
 
 That's it! Thank you! :)
