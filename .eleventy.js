@@ -14,8 +14,9 @@ module.exports = function (eleventyConfig) {
     content = content.replace(/\[\[(.*?)\]\]/g, function (match, p1) {
       const [title, alias] = p1.split("|");
       const displayText = alias || title;
+      const baseUrl = "https://ernestwambua.github.io";
       const url = title.toLowerCase().replace(/ /g, "-");
-      return `<a href='/articles/${url.toLowerCase().replace(/ /g, "-")}'>${displayText}</a>`;
+      return `<a href='${baseUrl}/articles/${url.toLowerCase().replace(/ /g, "-")}'>${displayText}</a>`;
     });
 
     // Fix image paths if needed
