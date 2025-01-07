@@ -10,7 +10,7 @@ Here are my amazing articles. This is my tiny slice of heaven where I share my t
 
 - [[this-is-the-beginning-of-life]]
 - [[how-to-python]]
-- [[Articles/linux/linux]]
+- [[Articles/linux/linux|linux]]
 
 
 
