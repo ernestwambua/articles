@@ -1,7 +1,7 @@
 ---
 title: How To Python
-Author: Ernest Wambua
-Date: "{{ date }}"
+author: Ernest Wambua
+date: 2025-01-07
 ---
 ## Introduction To Python Programming
 
