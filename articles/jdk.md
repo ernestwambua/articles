@@ -3,10 +3,11 @@ author: Ernest Wambua
 date: 2025-01-07
 type: category
 ---
-# [[ java ]]
+# [[ jdk ]]
 
 Why hello Stranger! 👋😀
-These are my articles on **java**
+
+These are my articles on **jdk**
 
 - [[how-to-install-java-sdk]]
 
