@@ -1,5 +1,5 @@
 ---
-title: Li
+title: Linux Articles
 author: Ernest Wambua
 date: 2025-01-07
 type: category
