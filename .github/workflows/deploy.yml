@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install @11ty/eleventy @11ty/eleventy-plugin-syntaxhighlight markdown-it
+          npm install @11ty/eleventy @11ty/eleventy-plugin-syntaxhighlight markdown-it markdown-it-attrs
 
       - name: Build site
         run: |

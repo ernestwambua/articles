@@ -27,6 +27,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Configure markdown processing
+  var markdownItAttrs = require('markdown-it-attrs');
   let markdownIt = require("markdown-it");
   let options = {
     html: true,
@@ -34,7 +35,7 @@ module.exports = function (eleventyConfig) {
     linkify: true
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  eleventyConfig.setLibrary("md", markdownIt(options).use(markdownItAttrs));
 
   return {
     dir: {
