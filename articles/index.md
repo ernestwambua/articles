@@ -1,4 +1,8 @@
-# Wambua's Articles
+---
+title: Wambua's Articles
+---
+
+## Wambua's Articles
 
 
 Why Hello Stranger 👋😀
