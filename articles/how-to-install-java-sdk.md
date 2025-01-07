@@ -1,13 +1,13 @@
 ---
-title: how-to-install-java-sdk
+title: How To Install Java SDK on linux
 author: Ernest Wambua
 date: 2025-01-07
 type: article
 tags: articles
 ---
-# [[ how-to-install-java-sdk ]]
-_By undefined on undefined_
-Categories: 
+# How To Install Java JDK on linux
+_By Ernest Wambua on 2025-01-07_
+_Categories: [[java]], [[jdk]], [[Articles/linux|linux]]_ 
 
 Why hello there Stranger! 👋😀
 Welcome to my little corner of the internet. 
