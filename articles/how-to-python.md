@@ -12,7 +12,7 @@ You finally caught that programming itch and after a bit searching here and ther
 Let's start with a simple line of code commonly referred to as "Hello, world"
 
 ```python
-print("Hello, world!2")
+print("Hello, world!")
 ```
 
 That's it and huge congratulations! you've written your first programming language 👏💯
