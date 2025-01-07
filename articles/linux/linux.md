@@ -1,7 +1,8 @@
 # Linux Articles
 
-These are my articles that focus mainly on linux/unix.
+Why hello stranger 👋😀
 
+These are my articles on linux/unix.
 ```dataview
 list from [[]] and !outgoing([[]])
 ```
