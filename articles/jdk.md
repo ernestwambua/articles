@@ -3,7 +3,7 @@ author: Ernest Wambua
 date: 2025-01-07
 type: category
 ---
-# [[ jdk ]]
+# JDK
 
 Why hello Stranger! 👋😀
 

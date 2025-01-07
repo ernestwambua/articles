@@ -3,7 +3,7 @@ author: Ernest Wambua
 date: 2025-01-07
 type: category
 ---
-# [[ java ]]
+# Java
 
 Why hello Stranger! 👋😀
 These are my articles on **java**

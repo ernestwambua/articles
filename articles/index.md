@@ -1,7 +1,6 @@
 ---
 title: Wambua's Articles
 ---
-
 # Wambua's Articles
 
 Why hello Stranger! 👋😀

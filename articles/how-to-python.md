@@ -3,9 +3,8 @@ title: How To Python
 author: Ernest Wambua
 date: 2025-01-07
 ---
+# How To Python
 Categories: [[dev]], [[python]]
-
-How To Python
 ## Introduction To Python Programming
 
 Hello Stranger 😀
