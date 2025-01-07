@@ -3,11 +3,12 @@ title: Software Development Articles
 author: Ernest Wambua
 date: 2025-01-07
 type: article-tag
-tags: dev, java, python
+tags: articles, dev, java, python
 ---
+
 # Software Development
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[dev]], [[java]], [[python]]_
+_Tags: [[index|articles]], [[dev]], [[java]], [[python]]_
 ___
 
 
