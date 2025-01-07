@@ -3,7 +3,7 @@ title: How To Install Java JDK on linux
 author: Ernest Wambua
 date: 2025-01-07
 type: article
-tags: articles
+tags: java, jdk, linux
 ---
 # How To Install Java JDK on linux
 _By Ernest Wambua on 2025-01-07_
@@ -20,9 +20,17 @@ What if I told you there was a better way. This is where I introduce you to SDKm
 
 First run this command to install SDK man on your system:
 
-```
+```bash
+curl -s "https://get.sdkman.io" | bash
 ```
 
+That's it. Now you can start installing your JDKs and SDKs. Here's how to do that.
+
+```bash
+sdk install java
+```
+
+This will install the latest version of the java JDK to your system
 ## Resources
 
 That's it!
