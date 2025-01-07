@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
       const [title, alias] = p1.split("|");
       const displayText = alias || title;
       const url = title.toLowerCase().replace(/ /g, "-");
-      return `<a href='${url.toLowerCase().replace(/ /g, "-")}'>${displayText}</a>`;
+      return `<a href='/articles/${url.toLowerCase().replace(/ /g, "-")}'>${displayText}</a>`;
     });
 
     // Fix image paths if needed
