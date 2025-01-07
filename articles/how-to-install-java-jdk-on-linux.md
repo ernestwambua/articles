@@ -3,13 +3,13 @@ title: How To Install Java JDK on linux
 author: Ernest Wambua
 date: 2025-01-07
 type: article
-tags: java, jdk, linux
+tags: articles, java, jdk, linux
 ---
+
 # How To Install Java JDK on linux
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[java]], [[jdk]], [[linux]]_
+_Tags: [[index|articles]], [[java]], [[jdk]], [[linux]]_
 ___
-
 
 Why hello there Stranger! 👋😀
 Welcome to my little corner of the internet. 

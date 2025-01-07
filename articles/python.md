@@ -3,13 +3,13 @@ title: Python Articles
 author: Ernest Wambua
 date: 2025-01-07
 type: article-tag
-tags: python, dev
+tags: articles, python, dev
 ---
+
 # Python
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[python]], [[dev]]_
+_Tags: [[index|articles]], [[python]], [[dev]]_
 ___
-
 
 Why hello Stranger! 👋😀
 These are my articles on **python**

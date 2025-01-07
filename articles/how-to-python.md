@@ -3,14 +3,13 @@ title: How To Python
 author: Ernest Wambua
 date: 2025-01-07
 type: article
-tags: dev, python
+tags: articles, dev, python
 ---
+
 # How To Python
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[dev]], [[python]]_
+_Tags: [[index|articles]], [[dev]], [[python]]_
 ___
-
-
 ## Introduction To Python Programming
 
 Hello Stranger 😀

@@ -5,11 +5,11 @@ date: 2025-01-07
 type: articles
 tags: articles, java, python, linux, jdk, dev
 ---
+
 # Wambua's Articles
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[index]], [[java]], [[python]], [[linux]], [[jdk]], [[dev]]_
+_Tags: [[index|articles]], [[java]], [[python]], [[linux]], [[jdk]], [[dev]]_
 ___
-
 
 Why hello Stranger! 👋😀
 
