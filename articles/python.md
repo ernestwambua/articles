@@ -8,7 +8,8 @@ tags: python, dev
 # Python
 _By Ernest Wambua on 2025-01-07_
 _Tags: [[python]], [[dev]]_
-## ---
+___
+
 Why hello Stranger! 👋😀
 These are my articles on **python**
 

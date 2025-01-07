@@ -8,7 +8,8 @@ tags: dev, python
 # How To Python
 _By Ernest Wambua on 2025-01-07_
 _Tags: [[dev]], [[python]]_
-## ---
+___
+
 ## Introduction To Python Programming
 
 Hello Stranger 😀

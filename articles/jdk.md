@@ -8,7 +8,8 @@ tags: java, jdk
 # JDK
 _By Ernest Wambua on 2025-01-07_
 _Tags: [[java]], [[jdk]]_
-## ---
+___
+
 Why hello Stranger! 👋😀
 These are my articles on **jdk**
 
