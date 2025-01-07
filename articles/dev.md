@@ -3,6 +3,7 @@ title: Software Development Articles
 author: Ernest Wambua
 date: 2025-01-07
 type: article-tag
+tags: dev, java, python
 ---
 # Software Development
 _By Ernest Wambua on 2025-01-07_

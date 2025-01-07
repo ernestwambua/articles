@@ -3,6 +3,7 @@ title: Wambua's Articles
 author: Ernest Wambua
 date: 2025-01-07
 type: articles
+tags: articles, java, python, linux, jdk, dev
 ---
 # Wambua's Articles
 _By Ernest Wambua on 2025-01-07_

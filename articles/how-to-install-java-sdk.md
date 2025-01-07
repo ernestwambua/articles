@@ -36,4 +36,4 @@ This will install the latest version of the java JDK to your system
 - [Home \| SDKMAN! the Software Development Kit Manager](https://sdkman.io)
 - [Usage \| SDKMAN! the Software Development Kit Manager](https://sdkman.io/usage/)
 
-That's it!
+Thank You! :)

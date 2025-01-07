@@ -7,7 +7,7 @@ tags: dev, python
 ---
 # How To Python
 _By Ernest Wambua on 2025-01-07_
-_: [[dev]], [[python]]_
+_Tags: [[dev]], [[python]]_
 ## ---
 ## Introduction To Python Programming
 

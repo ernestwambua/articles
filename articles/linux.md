@@ -2,17 +2,18 @@
 title: Linux Articles
 author: Ernest Wambua
 date: 2025-01-07
-type: category
+type: article-tag
+tags: linux
 ---
 # Linux
 _By Ernest Wambua on 2025-01-07_
-_Categories: [[linux]]_
+_Tags: [[linux]]_
 ## ---
 Why hello Stranger! 👋😀
 These are my articles on **linux**
 
 - [[how-to-install-java-sdk]]
 
-That's it! Thank you! :) ❤️
+That's it! Thank you! :)
 
 
