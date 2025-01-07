@@ -6,7 +6,7 @@ type: category
 ---
 # Java
 _By Ernest Wambua on 2025-01-07_
-Categories: [[java]], [[dev]]
+_Categories: [[java]], [[dev]]_
 ## ---
 Why hello Stranger! 👋😀
 These are my articles on **java**

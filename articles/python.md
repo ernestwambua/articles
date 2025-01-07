@@ -6,7 +6,7 @@ type: category
 ---
 # Python
 _By Ernest Wambua on 2025-01-07_
-Categories: [[python]], [[dev]]
+_Categories: [[python]], [[dev]]_
 ## ---
 Why hello Stranger! 👋😀
 These are my articles on **python**

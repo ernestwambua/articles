@@ -2,11 +2,11 @@
 title: Software Development Articles
 author: Ernest Wambua
 date: 2025-01-07
-type: category
+type: article-tag
 ---
 # Software Development
 _By Ernest Wambua on 2025-01-07_
-_Categories: [[dev]], [[java]], [[python]]_
+_Tags: [[dev]], [[java]], [[python]]_
 ## ---
 Why hello Stranger! 👋😀
 These are my articles on **software development**.

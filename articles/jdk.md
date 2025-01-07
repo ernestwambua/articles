@@ -6,7 +6,7 @@ type: category
 ---
 # JDK
 _By Ernest Wambua on 2025-01-07_
-Categories: [[java]], [[jdk]]
+_Categories: [[java]], [[jdk]]_
 ## ---
 Why hello Stranger! 👋😀
 These are my articles on **jdk**

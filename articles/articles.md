@@ -2,11 +2,11 @@
 title: Wambua's Articles
 author: Ernest Wambua
 date: 2025-01-07
-type: category
+type: articles
 ---
 # Wambua's Articles
 _By Ernest Wambua on 2025-01-07_
-_Categories: [[articles]], [[java]], [[python]], [[linux]], [[jdk]], [[dev]]_
+_Tags: [[articles]], [[java]], [[python]], [[linux]], [[jdk]], [[dev]]_
 ## ---
 Why hello Stranger! 👋😀
 

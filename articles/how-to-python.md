@@ -2,10 +2,12 @@
 title: How To Python
 author: Ernest Wambua
 date: 2025-01-07
+type: article
+tags: dev, python
 ---
 # How To Python
 _By Ernest Wambua on 2025-01-07_
-Categories: [[dev]], [[python]]
+_: [[dev]], [[python]]_
 ## ---
 ## Introduction To Python Programming
 
