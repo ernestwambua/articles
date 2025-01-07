@@ -4,6 +4,8 @@ author: Ernest Wambua
 date: 2025-01-07
 ---
 Categories: [[dev]], [[python]]
+
+How To Python
 ## Introduction To Python Programming
 
 Hello Stranger 😀
