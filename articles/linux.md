@@ -9,7 +9,7 @@ Why hello Stranger! 👋😀
 
 These are my articles on **linux**
 
-
+- [[how-to-install-java-sdk]]
 
 That's it! Thank you! :) ❤️
 
