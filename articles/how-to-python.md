@@ -24,4 +24,6 @@ print("Hello, world!")
 
 That's it and huge congratulations! you've written your first programming language 👏💯
 
+![[image]](https://imgur.com/34SdtGI)
+
 Thank You! :)
