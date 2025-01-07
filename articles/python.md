@@ -1,6 +1,8 @@
-## Python Articles
+---
+title: Pyhton Articles
+---
 
-Why hello stranger 👋😀
+Why hello Stranger! 👋😀
 
 These are my articles on **software development**.
 
