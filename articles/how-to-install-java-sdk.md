@@ -7,7 +7,7 @@ tags: java, jdk, linux
 ---
 # How To Install Java JDK on linux
 _By Ernest Wambua on 2025-01-07_
-_Categories: [[java]], [[jdk]], [[Articles/linux|linux]]_
+_Categories: [[java]], [[jdk]], [[linux]]_
 
 Why hello there Stranger! 👋😀
 Welcome to my little corner of the internet. 

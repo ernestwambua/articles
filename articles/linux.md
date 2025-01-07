@@ -1,9 +1,16 @@
 ---
-title: Linux Articles
+author: Ernest Wambua
+date: 2025-01-07
+type: category
 ---
+# [[ linux ]]
 
 Why hello Stranger! 👋😀
 
-These are my articles on **linux/unix**.
+These are my articles on **linux**
+
+
+
+That's it! Thank you! :) ❤️
 
 

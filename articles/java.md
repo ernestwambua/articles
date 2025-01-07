@@ -8,6 +8,6 @@ type: category
 Why hello Stranger! 👋😀
 These are my articles on **java**
 
-- [[how-to-install-java-sdk]]
+
 
 That's it! Thank you! :) ❤️
