@@ -18,6 +18,8 @@ Here are my amazing articles. This is my tiny slice of heaven where I share my t
 - [[how-to-python]]
 - [[how-to-install-java-jdk-on-linux]]
 
+That's it! Thank you! :)
+
 
 
 
