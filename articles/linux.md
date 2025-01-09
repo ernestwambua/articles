@@ -15,6 +15,6 @@ Why hello Stranger! 👋😀
 These are my articles on **linux**
 
 - [[how-to-install-java-jdk-on-linux|How To Install Java JDK on Linux]]
-- [[sending-encrypted-emails-using-pgp-in-linux|Sending Encrypted Emails Using PGP In Linux]]
+- [[sending-encrypted-messages-using-pgp-in-linux|Sending Encrypted Messages Using PGP In Linux]]
 
 That's it! Thank you! :)
