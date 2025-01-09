@@ -28,21 +28,21 @@ This is our friend Tux the penguin...
     \___)=(___/
 ```
 
-Tux is really into security and he encrypts all his messages using PGP (Pretty Good Privacy). We would like to sen
+Tux is really into security and he encrypts all his messages using PGP (Pretty Good Privacy). We would like to send Tux a message but for us to do this we have to set-up PGP on our computer and send him an encrypted message.
 
-First install the `gnupg` package using your distro package manager.
+First let's install the `gnupg` package using linux machine. For this example we used `pacman` but you can use your distro's package manager.
 
 ```bash
 $ pacman -S gnupg
 ```
 
-Generate a key pair.
+After `gnupg` is successfully installed on our computer we first need to generate a key pair.
 
 ```bash
 $ gpg --full-gen-key
 ```
 
-You will be prompted with several questions after running the above command.
+After running the above command we get 
 
 If you would like to generate a key pair using default parameters you can run the command bellow
 
