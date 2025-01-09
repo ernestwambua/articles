@@ -124,7 +124,9 @@ gpg: tux@linux.org: skipped: General error
 gpg: alice_message.txt: encryption failed: General error
 ```
 
-Well it's not your fault. You did everything right it's just I intentionally left out a crucial step in our process.
+Don't panic, it's not your fault. You did everything right it's just that I intentionally left out a crucial step in our process.
+
+I have mentioned a key pair before, well.. what is it exactly...? One thing to note is that PGP used asymmetric key cryptography meaning it uses two keys. One key is used for encryption 
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
