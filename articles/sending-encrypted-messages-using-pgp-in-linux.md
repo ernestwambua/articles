@@ -187,25 +187,15 @@ $ gpg --output response.txt --decrypt response.txt.gpg
 After running this command we will be prompted to enter out GnuPG passphrase. After entering the correct passphrase the command should complete gracefully then we should see a file called `response.txt` in our working directory. We then open the file to see Tux's response.
 
 ```bash
+$ cat response.txt
+Hello Friend
 ```
 
-After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
-
-```bash
-$ gpg --export --armor user_id
-```
-
-Here the `user_id` is the email you used to generate your key pair. This command will output the public key to your console. You may want to save the public key to a file using the following command
-
-```bash
-$ gpg --export --armor --output public_key.asc user_id
-```
-
-In asymmetric key cryptography, the public key is used for encryption and the public key is used for decryption. The private key, as the name suggests should be private and you should not share it with anyone since it can be used to impersonate you. The public key can be shared publicly using your email or you can use a key server to share it publicly.
-
-You can also import another user's public key 
-
-
+That is it! So in summary we need to:
+1. Install `gnupg` package in our computer.
+2. Generate public private key pairs.
+3. Send the public key to the recipient
+4. Encrypt 
 
 ## Resources
 - [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
