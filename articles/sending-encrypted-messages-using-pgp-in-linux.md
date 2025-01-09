@@ -10,6 +10,9 @@ tags: articles, linux
 _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
+
+
+
 First install the `gnupg` package using your distro package manager.
 
 ```bash
@@ -30,7 +33,7 @@ If you would like to generate a key pair using default parameters you can run th
 $ gpg --gen-key
 ```
 
-Now that you have generated the key pairs, we can start encrypting our messages using the following command
+Now that you have generated the key pairs, we can start sending messages 
 
 
 
