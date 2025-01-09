@@ -1,5 +1,5 @@
 ---
-title: sending-encrypted-messages-using-pgp-in-linux
+title: Sending Encrypted Messages Using PGP In Linux
 author: Ernest Wambua
 date: 2025-01-09
 type: article
@@ -132,10 +132,18 @@ ___
 
 Now that we've gotten some understanding of the whole key pair business, you might be thinking that for this to work we need Tux's public key for us to encrypt our message, and for that you are absolutely right ✅
 
-We call Tux and ask him for his public key. Tux sends us an email with his public key file `tux.asc`. Now we need to register this Tux's public key to GnuPG so that when we encrypt a message with the recipient as `tux@linux.org` GnuPG will know exactly which key to use. We will do that using the following command.
+We call Tux and ask him for his public key. Tux sends us an email with his public key file `tux.asc`. We can save the file to our current working directory. Now we need to register this Tux's public key to GnuPG so that when we encrypt a message with the recipient as `tux@linux.org` GnuPG will know exactly which key to use. We will do that using the following command.
 
 ```bash
-$ gpg 
+$ gpg --import tux.asc
+```
+
+If everything was done right you should get the following output.
+
+```text
+gpg: key 318E6A9347C96EFC: public key "Tux <tux@linux.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
 ```
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
