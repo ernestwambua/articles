@@ -30,6 +30,10 @@ If you would like to generate a key pair using default parameters you can run th
 $ gpg --gen-key
 ```
 
+Now that you have generated the key pairs, we can start encrypting our messages using the following command
+
+
+
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
 ```bash
