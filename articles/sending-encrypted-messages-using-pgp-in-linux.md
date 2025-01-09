@@ -170,7 +170,13 @@ Use this key anyway? (y/N) y
 
 This will generate a `message.txt.gpg` file on our working directory. We can now send this file to Tux. If anyone intercepts this file they will need the Tux's private key to decrypt it and read it's contents. So we can even send it as an attachment using an email client like gmail.
 
-Tux received our message. He gives us a call saying that he can't respond to our message since we did not share our public key with him. Tux needs our public key so he can use it to encrypt his response and share it with us.
+Tux received our message. He gives us a call saying that he can't respond to our message since we did not share our public key with him. Tux needs our public key so he can use it to encrypt his response and share it with us. Here's how we can do that...
+
+```bash
+$ gpg --output johndoe.asc john.doe@example.com
+```
+
+Instead of `john.doe@example.com` you should use the email that you used to generate the key pair. You can name the output file, `johndoe.asc`, whatever you want.
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
