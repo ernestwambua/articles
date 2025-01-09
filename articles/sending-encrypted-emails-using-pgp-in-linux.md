@@ -8,7 +8,7 @@ tags: articles
 
 # Sending Encrypted Emails Using PGP In Linux
 _By **Ernest Wambua** on **2025-01-09**_
-_Tags: [[index|articles]]_
+_Tags: [[index|articles]], [[linux]]_
 ___
 
 Why hello there Stranger! 👋😀
