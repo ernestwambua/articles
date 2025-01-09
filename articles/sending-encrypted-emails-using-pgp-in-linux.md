@@ -18,5 +18,3 @@ Welcome to my little corner of the internet.
 
 ## Resources
 - [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
-
-Thank You! :)
