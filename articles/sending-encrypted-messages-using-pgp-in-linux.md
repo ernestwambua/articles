@@ -85,13 +85,19 @@ Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
 
 Afterwards we get prompted to enter a passphrase. Make sure you use a strong passphrase for maximum security.
 
-If you would like to generate a key pair using default parameters you can run the command bellow
+Now that we have generated the key pairs, we can see the generated keys using the command below.
 
-```basg
-$ gpg --gen-key
+```bash
+$ gpg --list-keys
 ```
 
-Now that you have generated the key pairs, we can start sending messages 
+Now that we have confirmed that the keys were 
+
+First let's write our message in a text file.
+
+```bash
+$ 
+```
 
 
 
