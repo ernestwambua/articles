@@ -126,8 +126,11 @@ gpg: alice_message.txt: encryption failed: General error
 
 Don't panic, it's not your fault. You did everything right it's just that I intentionally left out a crucial step in our process.
 
-I have mentioned a key pair before, well.. what is it exactly...? One thing to note is that PGP used asymmetric key cryptography meaning it uses two keys. One key is used for encryption while the other key is used for decryption. The key used for encryption is usually referred to as the `public key`, as the name suggests it is public i.e can be shared with other people. They will use it to encrypt messages that are intended for you. The other key used for decryption is usually referred to as the `private key` and as the name suggests it should be private. We should never share the private key since malliciuous actors can use is to read our messages.
+___
+I have mentioned a key pair before, well.. what is it exactly...? One thing to note is that PGP used asymmetric key cryptography meaning it uses two keys. One key is used for encryption while the other key is used for decryption. The key used for encryption is usually referred to as the `public key`, as the name suggests it is public i.e can be shared with other people. They will use it to encrypt messages that are intended for you. The other key used for decryption is usually referred to as the `private key` and as the name suggests it should be private. We should never share the private key since malicious actors can use is to read our messages and impersonate us. The existence of asymmetric keys implies that there exists symmetric keys. Well symmetric keys use only one key for both encryption and decryption the same key. I won't delve deep into symmetric keys that's a topic for another day
+___
 
+Now that we've gotten some understanding of the whole key pair business
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
 ```bash
