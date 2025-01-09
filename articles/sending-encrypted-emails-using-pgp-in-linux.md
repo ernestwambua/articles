@@ -3,7 +3,7 @@ title: sending-encrypted-emails-using-pgp-in-linux
 author: Ernest Wambua
 date: 2025-01-09
 type: article
-tags: articles
+tags: articles, linux
 ---
 
 # Sending Encrypted Emails Using PGP In Linux
