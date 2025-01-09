@@ -105,10 +105,18 @@ Now that we have confirmed that the keys were successfully generated we can star
 First let's write our message in a text file.
 
 ```bash
-$ echo "Hello Tux" >> message
+$ echo "Hello Tux" >> message.txt
 ```
 
+This will create a `message.txt` file in our working directory with the contents `Hello Tux`.
 
+Now we should encrypt this file and send it to our friend bob.
+
+```bash
+$ gpg --recipient tux@linux.org --encrypt message.txt
+```
+
+Huh! 
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
