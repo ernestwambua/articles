@@ -173,10 +173,14 @@ This will generate a `message.txt.gpg` file on our working directory. We can now
 Tux received our message. He gives us a call saying that he can't respond to our message since we did not share our public key with him. Tux needs our public key so he can use it to encrypt his response and share it with us. Here's how we can do that...
 
 ```bash
-$ gpg --output johndoe.asc john.doe@example.com
+$ gpg --export --output johndoe.asc john.doe@example.com
 ```
 
-Instead of `john.doe@example.com` you should use the email that you used to generate the key pair. You can name the output file, `johndoe.asc`, whatever you want.
+Instead of `john.doe@example.com` you should use the email that you used to generate the key pair. You can name the output file, `johndoe.asc`, whatever you want. We now send this public key file to Tux.
+
+Tux received our public key, wrote a response encrypted it and sent it back to us. The file is called `response.txt.gpg`. If we try reading the contents of this file we will just see a bunch of gibberish. We first need to decrypt is using our private key.
+
+
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
