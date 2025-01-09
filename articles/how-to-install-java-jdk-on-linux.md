@@ -6,7 +6,7 @@ type: article
 tags: articles, java, jdk, linux
 ---
 
-# How To Install Java JDK on linux
+# How To Install Java JDK on Linux
 _By Ernest Wambua on 2025-01-07_
 _Tags: [[index|articles]], [[java]], [[jdk]], [[linux]]_
 ___

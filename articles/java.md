@@ -14,6 +14,6 @@ ___
 Why hello Stranger! 👋😀
 These are my articles on **java**
 
-- [[how-to-install-java-jdk-on-linux]]
+- [[how-to-install-java-jdk-on-linux|How To Install Java JDK on Linux]]
 
 That's it! Thank you! :)
