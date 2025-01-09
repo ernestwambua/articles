@@ -22,7 +22,7 @@
           --text-color: #ebdbb2;         /* Gruvbox light0 */
           --code-background: #3c3836;    /* Gruvbox dark1 */
           --border-color: #504945;       /* Gruvbox dark2 */
-          --container-width: 768px;
+          --container-width: 75%;
           --heading-font: -apple-system, BlinkMacSystemFont, "Source Code Pro", Roboto, sans-serif;
           --body-font: "Source Code Pro", serif;
         }
@@ -39,7 +39,7 @@
 
         /* Container for content */
         main {
-          width: 75%;
+          width: var(--container-width);
           margin: 0 auto;
           max-width: 800px;
           min-height: 100vh;
@@ -134,7 +134,7 @@
           h2 { font-size: 1.75rem; }
           h3 { font-size: 1.5rem; }
           
-          .container {
+          main {
             padding: 1rem;
           }
         }
