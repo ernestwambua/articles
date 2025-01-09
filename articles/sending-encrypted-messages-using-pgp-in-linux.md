@@ -16,7 +16,13 @@ First install the `gnupg` package using your distro package manager
 $ pacman -S gnupg
 ```
 
+Generate a key pair
 
+```bash
+$ gpg --full-gen-key
+```
+
+You will be prompted with several quest
 
 ## Resources
 - [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
