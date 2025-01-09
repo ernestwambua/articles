@@ -12,9 +12,12 @@ _Tags: [[index|articles]], [[linux]]_
 ___
 
 Why hello there Stranger! 👋😀
-Welcome to my little corner of the internet. 
+Welcome to my little corner of the internet.
+
+
 
 ## Resources
 
+- [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
 
 Thank You! :)
