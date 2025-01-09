@@ -22,7 +22,7 @@ Generate a key pair.
 $ gpg --full-gen-key
 ```
 
-You will be prompted with several questions after runing the above command.
+You will be prompted with several questions after running the above command.
 
 If you would like to generate a key pair using default parameters you can run the command bellow
 
@@ -36,9 +36,15 @@ After generating the key pairs you can generate an ASCII version of your public 
 $ gpg --export --armor user_id
 ```
 
-Here the `user_id` can be the email you used to generate your key pair.
+This command will output the public key to your console. You may want to save the public key to a file using the following command
 
-In asymetric key cryptog
+```bash
+$ gpg --export --armor --output public_key.asc user_id
+```
+
+Here the `user_id` is the email you used to generate your key pair.
+
+In asymmetric key cryptography, the public key is used for encryption and the public key is used for decryption. The private key, as the name suggests should be private and you should not share it with anyone since it can be used to impersonate you. The public key can be shared publicly in fact you can upload it to a key server so users can easily find it.
 
 
 
