@@ -36,15 +36,15 @@ After generating the key pairs you can generate an ASCII version of your public 
 $ gpg --export --armor user_id
 ```
 
-This command will output the public key to your console. You may want to save the public key to a file using the following command
+Here the `user_id` is the email you used to generate your key pair. This command will output the public key to your console. You may want to save the public key to a file using the following command
 
 ```bash
 $ gpg --export --armor --output public_key.asc user_id
 ```
 
-Here the `user_id` is the email you used to generate your key pair.
+In asymmetric key cryptography, the public key is used for encryption and the public key is used for decryption. The private key, as the name suggests should be private and you should not share it with anyone since it can be used to impersonate you. The public key can be shared publicly using your email or you can use a key server to share it publicly.
 
-In asymmetric key cryptography, the public key is used for encryption and the public key is used for decryption. The private key, as the name suggests should be private and you should not share it with anyone since it can be used to impersonate you. The public key can be shared publicly in fact you can upload it to a key server so users can easily find it.
+You can also import another user's public key 
 
 
 
