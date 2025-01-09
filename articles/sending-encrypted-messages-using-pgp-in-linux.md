@@ -42,7 +42,7 @@ After `gnupg` is successfully installed on our computer, we first need to genera
 $ gpg --full-gen-key
 ```
 
-After running the above command we are prompted with the following questions. You 
+After running the above command we are prompted with the following questions. You can enter your own details like your real name and email.
 
 ```text
 gpg (GnuPG) 2.4.7; Copyright (C) 2024 g10 Code GmbH
@@ -83,9 +83,9 @@ You selected this USER-ID:
 Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
 ```
 
-Afterwards we get prompted to enter a passphrase. Make sure you use a strong passphrase for maximum security.
+Afterwards we get prompted to enter a passphrase. Make sure you use a strong passphrase for maximum security. After entering your passphrase the keys will be generated.
 
-Now that we have generated the key pairs, we can see the generated keys using the command below.
+We can list the keys that we generates using the command below.
 
 ```bash
 $ gpg --list-keys
@@ -96,11 +96,11 @@ If the key generation was successful we should see something like this
 ```text
 pub   ed25519 2025-01-09 [SC] [expires: 2028-01-09]
       5BFA075DC56DFF14F2E10CA018341DD2DDFB13B8
-uid           [ultimate] Alice <john.doe@example.com>
+uid           [ultimate] John Doe <john.doe@example.com>
 sub   cv25519 2025-01-09 [E] [expires: 2028-01-09]
 ```
 
-Now that we have confirmed that the keys were successfully generated we can start sending messages to our friend Tux.
+Now that we have successfully generated our key pair we can start sending messages to Tux.
 
 First let's write our message in a text file.
 
