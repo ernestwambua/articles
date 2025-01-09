@@ -180,7 +180,14 @@ Instead of `john.doe@example.com` you should use the email that you used to gene
 
 Tux received our public key, wrote a response encrypted it and sent it back to us. The file is called `response.txt.gpg`. If we try reading the contents of this file we will just see a bunch of gibberish. We first need to decrypt is using our private key.
 
+```bash
+$ gpg --output response.txt --decrypt response.txt.gpg
+```
 
+After running this command we will be prompted to enter out GnuPG passphrase. After entering the correct passphrase the command should complete gracefully then we should see a file called `response.txt` in our working directory. We then open the file to see Tux's response.
+
+```bash
+```
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
