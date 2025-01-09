@@ -11,7 +11,24 @@ _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
 
+This is our friend Tux the penguin...
 
+```text
+ ________
+< Hello! >
+ --------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+```
+
+Tux is really into security and he encrypts all his messages using PGP (Pretty Good Privacy). We would like to sen
 
 First install the `gnupg` package using your distro package manager.
 
