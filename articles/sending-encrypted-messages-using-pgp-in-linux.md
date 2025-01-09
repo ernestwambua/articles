@@ -10,19 +10,29 @@ tags: articles, linux
 _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
-First install the `gnupg` package using your distro package manager
+First install the `gnupg` package using your distro package manager.
 
 ```bash
 $ pacman -S gnupg
 ```
 
-Generate a key pair
+Generate a key pair.
 
 ```bash
 $ gpg --full-gen-key
 ```
 
-You will be prompted with several quest
+You will be prompted with several questions after runing the above command.
+
+If you would like to generate a key pair using default parameters you can run the command bellow
+
+```basg
+$ gpg --gen-key
+```
+
+
+
+
 
 ## Resources
 - [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
