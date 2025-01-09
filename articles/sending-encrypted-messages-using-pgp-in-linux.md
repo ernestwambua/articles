@@ -10,9 +10,11 @@ tags: articles, linux
 _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
+First install the `gnupg` package using your distro package manager
 
-Why hello there Stranger! 👋😀
-Welcome to my little corner of the internet.
+```bash
+$ pacman -S gnupg
+```
 
 
 
