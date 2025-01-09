@@ -11,7 +11,7 @@ _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
 
-This is our friend Tux the penguin... 
+This is our friend Tux the penguin...
 
 ```text
  ________
@@ -28,21 +28,21 @@ This is our friend Tux the penguin...
     \___)=(___/
 ```
 
-Tux is really into security and he encrypts all his messages using PGP (Pretty Good Privacy). We would like to send Tux a message but for us to do this we have to set-up PGP on our computer and send him an encrypted message.
+Tux is really into security and always encrypts all his messages using PGP (Pretty Good Privacy). We want to send Tux a message but for us to do that we need to encrypt all our messages using PGP as well otherwise Tux won't respond.
 
-First let's install the `gnupg` package using linux machine. For this example we used `pacman` but you can use your distro's package manager.
+First let's install the `gnupg` package on our linux machine. For this example we will `pacman`, with is a package manager for Arch Linux, but you can use your distro's package manager.
 
 ```bash
 $ pacman -S gnupg
 ```
 
-After `gnupg` is successfully installed on our computer we first need to generate a key pair.
+After `gnupg` is successfully installed on our computer, we first need to generate a key pair.
 
 ```bash
 $ gpg --full-gen-key
 ```
 
-After running the above command we are prompted with the following questions
+After running the above command we are prompted with the following questions. You 
 
 ```text
 gpg (GnuPG) 2.4.7; Copyright (C) 2024 g10 Code GmbH
