@@ -30,7 +30,15 @@ If you would like to generate a key pair using default parameters you can run th
 $ gpg --gen-key
 ```
 
+After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
+```bash
+$ gpg --export --armor user_id
+```
+
+Here the `user_id` can be the email you used to generate your key pair.
+
+In asymetric key cryptog
 
 
 
