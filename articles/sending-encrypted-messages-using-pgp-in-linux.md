@@ -195,7 +195,11 @@ That is it! So in summary we need to:
 1. Install `gnupg` package in our computer.
 2. Generate public private key pairs.
 3. Send the public key to the recipient
-4. Encrypt 
+4. Request the recipient's public key
+5. Register the recipient's public key to GnuPG
+6. Encrypt your message using recipient's public key
+7. Send the message to the recipient
 
+That's it :)
 ## Resources
 - [OpenPGP - ArchWiki](https://wiki.archlinux.org/title/OpenPGP)
