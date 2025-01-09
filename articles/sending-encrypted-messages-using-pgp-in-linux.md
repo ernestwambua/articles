@@ -149,8 +149,26 @@ gpg:               imported: 1
 Now we can retry encrypting the message using Tux's public key.
 
 ```bast
-$ gpg --recipient tux@lin
+$ gpg --recipient tux@linux.org --encrypt message.txt
 ```
+
+After running this command we get the following output.
+
+```text
+gpg: 4071ACE7388F0D09: There is no assurance this key belongs to the named user
+
+sub  cv25519/4071ACE7388F0D09 2025-01-09 Bob <tux@linux.org>
+ Primary key fingerprint: CEFD 7897 B207 9889 A420  467F 318E 6A93 47C9 6EFC
+      Subkey fingerprint: 2BC4 1435 935D 37E5 8DBF  7B2A 4071 ACE7 388F 0D09
+
+It is NOT certain that the key belongs to the person named
+in the user ID.  If you *really* know what you are doing,
+you may answer the next question with yes.
+
+Use this key anyway? (y/N) y
+```
+
+This will generate a `message.txt.gpg` file on our working directory. We can now send this file to Tux. If anyone intercepts this file they will need the Tux's private key to decrypt it and read it's contents. So we can even send it as an attachment using an email client like gmail.
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
