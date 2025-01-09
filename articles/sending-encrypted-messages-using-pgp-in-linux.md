@@ -138,12 +138,18 @@ We call Tux and ask him for his public key. Tux sends us an email with his publi
 $ gpg --import tux.asc
 ```
 
-If everything was done right you should get the following output.
+If we did everything right we should get the following output.
 
 ```text
 gpg: key 318E6A9347C96EFC: public key "Tux <tux@linux.org>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
+```
+
+Now we can retry encrypting the message using Tux's public key.
+
+```bast
+$ gpg --recipient tux@lin
 ```
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
