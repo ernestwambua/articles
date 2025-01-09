@@ -11,7 +11,7 @@ _By **Ernest Wambua** on **2025-01-09**_
 _Tags: [[index|articles]], [[linux]]_
 ___
 
-This is our friend Tux the penguin...
+This is our friend Tux the penguin... 
 
 ```text
  ________
@@ -116,7 +116,15 @@ Now we should encrypt this file and send it to our friend bob.
 $ gpg --recipient tux@linux.org --encrypt message.txt
 ```
 
-Huh! 
+Huhh...? We got an error...?
+
+```bash
+gpg: error retrieving 'tux@linux.org' via WKD: General error
+gpg: tux@linux.org: skipped: General error
+gpg: alice_message.txt: encryption failed: General error
+```
+
+Well it's not your fault. You did everything right it's just I intentionally left out a crucial step in our process.
 
 After generating the key pairs you can generate an ASCII version of your public key and share it using the following command
 
