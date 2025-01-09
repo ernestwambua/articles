@@ -91,12 +91,21 @@ Now that we have generated the key pairs, we can see the generated keys using th
 $ gpg --list-keys
 ```
 
-Now that we have confirmed that the keys were 
+If the key generation was successful we should see something like this
+
+```text
+pub   ed25519 2025-01-09 [SC] [expires: 2028-01-09]
+      5BFA075DC56DFF14F2E10CA018341DD2DDFB13B8
+uid           [ultimate] Alice <john.doe@example.com>
+sub   cv25519 2025-01-09 [E] [expires: 2028-01-09]
+```
+
+Now that we have confirmed that the keys were successfully generated we can start sending messages to our friend Tux.
 
 First let's write our message in a text file.
 
 ```bash
-$ 
+$ echo "Hello Tux" >> message
 ```
 
 
