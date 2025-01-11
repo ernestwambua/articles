@@ -8,7 +8,7 @@ tags: articles, linux
 
 # Sending Encrypted Messages Using PGP In Linux
 _By **Ernest Wambua** on **2025-01-09**_
-_Tags: [[index|articles]], [[linux]]_
+_Tags: [[Articles/index|articles]], [[linux]]_
 ___
 
 This is our friend Tux the penguin...

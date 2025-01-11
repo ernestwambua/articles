@@ -8,7 +8,7 @@ tags: articles, dev, java, python
 
 # Software Development
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[index|articles]], [[dev]], [[java]], [[python]]_
+_Tags: [[Articles/index|articles]], [[dev]], [[java]], [[python]]_
 ___
 
 Why hello Stranger! 👋😀

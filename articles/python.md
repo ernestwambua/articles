@@ -8,7 +8,7 @@ tags: articles, python, dev
 
 # Python
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[index|articles]], [[python]], [[dev]]_
+_Tags: [[Articles/index|articles]], [[python]], [[dev]]_
 ___
 
 Why hello Stranger! 👋😀

@@ -8,7 +8,7 @@ tags: articles, linux
 
 # Linux
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[index|articles]], [[linux]]_
+_Tags: [[Articles/index|articles]], [[linux]]_
 ___
 
 Why hello Stranger! 👋😀

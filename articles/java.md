@@ -8,7 +8,7 @@ tags: articles, java, dev
 
 # Java
 _By Ernest Wambua on 2025-01-07_
-_Tags: [[index|articles]], [[java]], [[dev]]_
+_Tags: [[Articles/index|articles]], [[java]], [[dev]]_
 ___
 
 Why hello Stranger! 👋😀
